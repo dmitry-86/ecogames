@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="recycling_style.css">
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<section class="draggable-elements">
+<img src="images\recycling\organic.png" class="draggable" alt="" draggable="true" id="organic">
+<img src="images\recycling\glas.png" class="draggable" draggable="true" alt="" id="glas">
+<img src="images\recycling\paper.png" class="draggable" draggable="true" alt="" id="paper">
+<img src="images\recycling\plastic.png" class="draggable" draggable="true" alt="" id="plastic">
+<img src="images\recycling\dangerous.png" class="draggable" draggable="true" alt="" id="dangerous">
+<img src="images\recycling\garbage.png" class="draggable" draggable="true" alt="" id="garbage">
+
+  <!-- <i class="fas fa-cat draggable" draggable="true" style="color:#ff6384;" id="cat"></i>
+  <i class="fas fa-dog draggable" draggable="true" style="color:#36a2eb;" id="dog"></i>
+  <i class="fas fa-dove draggable" draggable="true" style="color:#ffce56;" id="dove"></i>
+  <i class="fas fa-fish draggable" draggable="true" style="color:#9966ff;" id="fish"></i>
+  <i class="fas fa-frog draggable" draggable="true" style="color:#4bc0c0;" id="frog"></i> -->
+
+</section>
+
+<section class="droppable-elements">
+<div class="droppable" data-draggable-id="organic"><span class="not-filled"><img src="images\recycling\organic_bin.png" alt="" style="visibility:visible"></span></div>
+<div class="droppable" data-draggable-id="paper"><span><img class="not-filled" src="images\recycling\paper_bin.png" alt=""></span></div>
+<div class="droppable" data-draggable-id="plastic"><span><img class="not-filled" src="images\recycling\plastic_bin.png" alt=""></span></div>
+<div class="droppable" data-draggable-id="glas"><span><img class="not-filled" src="images\recycling\glas_bin.png" alt=""></span></div>
+<div class="droppable" data-draggable-id="dangerous"><span><img class="not-filled" src="images\recycling\dangerous_bin.png" alt=""></span></div>
+<div class="droppable" data-draggable-id="garbage"><span><img class="not-filled" src="images\recycling\garbage_bin.png" alt=""></span></div>
+
+</section>
+
+
+    <script type="text/javascript" src="recycling.js"></script>
+  </body>
+</html>
