@@ -38,7 +38,7 @@ section {
 
 .back{
   /* background: blue; */
-  background: url("../images/recycling/recycling_cover.jpg");
+  background: url("../images/recycling_memo/recycling_cover.jpg");
   backface-visibility: hidden;
   background-size:100% 100%;
 }
